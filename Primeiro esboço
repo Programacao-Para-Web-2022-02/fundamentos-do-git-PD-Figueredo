@@ -1,0 +1,53 @@
+pedro.ff@AN0101716077254 MINGW64 ~
+$ https://github.com/Programacao-Para-Web-2022-02/primeiro-repo-PD-Figueredo.git
+bash: https://github.com/Programacao-Para-Web-2022-02/primeiro-repo-PD-Figueredo                                                                                                          .git: No such file or directory
+
+pedro.ff@AN0101716077254 MINGW64 ~
+$ README.md
+bash: README.md: command not found
+
+pedro.ff@AN0101716077254 MINGW64 ~
+$ echo "# primeiro-repo-PD-Figueredo" >> README.md
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Programacao-Para-Web-2022-02/primeiro-r                                                                                                          epo-PD-Figueredo.git
+git push -u origin main
+pedro.ff@AN0101716077254 MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/pedro.ff/.git/
+
+pedro.ff@AN0101716077254 MINGW64 ~ (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+pedro.ff@AN0101716077254 MINGW64 ~ (master)
+$ git commit -m "first commit"
+[master (root-commit) 758258c] first commit
+ Committer: Pedro Figuerêdo de Oliveira Freitas <pedro.ff@dinfor.uniceub>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+pedro.ff@AN0101716077254 MINGW64 ~ (master)
+$ git branch -M main
+
+pedro.ff@AN0101716077254 MINGW64 ~ (main)
+$ git remote add origin https://github.com/Programacao-Para-Web-2022-02/primeiro                                                                                                          -repo-PD-Figueredo.git
+
+pedro.ff@AN0101716077254 MINGW64 ~ (main)
+$ git push -u origin main
+
+
+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
